@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+
+input{
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+h1{
+    text-align: center;
+}
+
+.add{
+    width: 150px;
+    height: 2.5em;
+
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+td:last-child{
+    width: 80px;
+}
